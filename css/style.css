@@ -1,0 +1,84 @@
+.body {}
+
+.header {}
+
+.header-nav {}
+
+.header-logo {}
+
+.header-list {}
+
+.header-item {}
+
+.header-link {}
+
+.address-menu {}
+
+.address-list {}
+
+.address-item {}
+
+.address-contact {}
+
+.main {
+
+  
+    background: #FFFFFF;
+}
+
+.section-hero {
+  background: #2E2F42;
+
+}
+
+.hero-title {
+  color: #FFFFFF;
+}
+
+.hero-btn {
+color: #FFFFFF;
+background: #4D5AE5;
+}
+
+.section-features {}
+
+.features-title {}
+
+.features-list {}
+
+.features-item {}
+
+.features-subtitle {}
+
+.features-text {}
+
+.section-picture {}
+
+.picture-title {}
+
+.picture-list {}
+
+.picture-item {}
+
+.picture-img {}
+
+.section-team {}
+
+.team-title {}
+
+.team-list {}
+
+.team-item {}
+
+.team-img {}
+
+.team-subtitle {}
+
+.team-text {}
+
+
+.footer {}
+
+.footer-logo {}
+
+.footer-text {}
