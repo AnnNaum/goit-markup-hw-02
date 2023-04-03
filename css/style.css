@@ -32,6 +32,9 @@
   text-decoration: none;
 }
 
+.link {
+text-decoration: none;
+}
 .header-logo-link {
   color: var(--color-iris);
   font-family: Raleway, sans-serif;
@@ -55,7 +58,7 @@
 }
 
 
-.header-nav-list {
+.header-nav:list {
   list-style: none;
  
 }
@@ -97,7 +100,7 @@ color: var(--color-white);
   letter-spacing: 0.02em;
 }
 
-:link
+.link
 .hero-btn {
   cursor: pointer;
   background-color: var(--color-iris);
@@ -167,7 +170,7 @@ color: var(--color-white);
   background-color: var(--color-navy-blue);
   color: var(--color-cloud);
   text-decoration: none;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   
     font-weight: 800;
     font-size: 18px;
@@ -176,7 +179,7 @@ color: var(--color-white);
     text-transform: uppercase;
 }
 
-.footer-logo-link {
+.footer-logo:link {
   color: var(--color-iris);
   font-family: Raleway;
   text-decoration: none;
@@ -191,20 +194,27 @@ color: var(--color-white);
 
 
 
-
-
-.portfolio-color-btn{
-  cursor: pointer;
-  background-color: var(--color-ocean);
-  color: var(--color-white);
-  font-weight: 500;
-}
-
-.portfolio-btn {
+.portfolio-btn-list {
   cursor: pointer;
   background-color: var(--color-cloud);
   color: var(--color-iris);
   font-weight: 500;
+  "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.portfolio-color-btn{
+  background-color: var(--color-ocean);
+  color: var(--color-white);
+}
+
+.row-list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 
 .row-subtitle {
