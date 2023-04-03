@@ -97,6 +97,7 @@ color: var(--color-white);
   letter-spacing: 0.02em;
 }
 
+:link
 .hero-btn {
   cursor: pointer;
   background-color: var(--color-iris);
@@ -166,6 +167,13 @@ color: var(--color-white);
   background-color: var(--color-navy-blue);
   color: var(--color-cloud);
   text-decoration: none;
+  font-family: Raleway, sans-serif;
+  
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .footer-logo-link {
@@ -175,13 +183,6 @@ color: var(--color-white);
 }
 .footer-logo-text {
   color: var(--color-cloud);
-  font-family: Raleway, sans-serif;
-  text-decoration: none;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
   
 }
 
