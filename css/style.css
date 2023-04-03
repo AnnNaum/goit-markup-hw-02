@@ -27,7 +27,7 @@
 
 .header-logo-link {
     color: var(--color-iris);
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -38,7 +38,7 @@
 
 .header-logo-text {
     color: var(--color-navy-blue);
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     text-decoration: none;
     font-weight: 800;
     font-size: 18px;
@@ -187,9 +187,12 @@ cursor: pointer;
     color: var(--color-grey);
 }
 
+.section-team{
+background-color: #FFFFFF;
+}
 .team-list {
     list-style: none;
-    background-color: #FFFFFF;
+   
 
 }
 .team-subtitle {
@@ -213,7 +216,8 @@ cursor: pointer;
     background-color: var(--color-navy-blue);
     color: var(--color-cloud);
     text-decoration: none;
-    font-family: "Raleway", sans-serif;
+    font-family: 'Raleway',
+        sans-serif;
 
     font-weight: 800;
     font-size: 18px;
@@ -272,6 +276,7 @@ cursor: pointer;
 .row-link {
 text-decoration: none;
 }
+
 .row-subtitle {
     font-weight: 500;
     font-size: 20px;
