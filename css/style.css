@@ -19,7 +19,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #ffffff;
+  background-color: var(--color-white)
 }
 
 .header-link:hover, .header-link:focus {
@@ -54,16 +54,28 @@
   text-transform: uppercase;
 }
 
+
+.header-nav-list {
+  list-style: none;
+ 
+}
 .header-link {
   font-weight: 500;
-  font-size: 16px;
   line-height: 24px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em
+   var(--color-navy-blue-modal)
   text-decoration: none;
 }
 
-.address-contact {
+.address-menu-list {
   color: var(--color-navy-blue);
   text-decoration: none;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .address-contact:hover, .address-contact:focus {
@@ -77,30 +89,40 @@
 
 .hero-title {
 color: var(--color-white);
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero-btn {
   cursor: pointer;
   background-color: var(--color-iris);
   color: var(--color-white);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
+
 .hero-btn:hover, .hero-btn:focus {
   background-color: var(--color-ocean);
 }
 
-.features-title {
+.features-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-grey);
 }
 
 .features-text {
   color: var(--color-slate);
+  letter-spacing: 0.02em;
 }
 
 .picture-title {
@@ -109,24 +131,35 @@ color: var(--color-white);
   line-height: 1.1;
 }
 
-.section-team {
-  background-color: var(--color-cloud);
-}
+
 
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.1px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--color-grey);
+}
+.section-team {
+  background-color: var(--color-cloud);
+}
+
+.team-list{
+
 }
 
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2px;
+  color: var(--color-grey);
 }
 
 .team-text {
   color: var(--color-slate);
+  letter-spacing: 0.02em;
 }
 
 .footer {
@@ -142,8 +175,14 @@ color: var(--color-white);
 }
 .footer-logo-text {
   color: var(--color-cloud);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   text-decoration: none;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
 }
 
 
