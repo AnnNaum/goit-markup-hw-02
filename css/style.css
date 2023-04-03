@@ -84,7 +84,7 @@
     list-style: none;
 }
 
-.address-contact-link {
+.address-contact {
     list-style: none;
     font-size: 16px;
     line-height: 1.5;
@@ -93,8 +93,8 @@
     text-decoration: none;
 }
 
-.address-contact-link:hover,
-.address-contact-link:focus {
+.address-contact:hover,
+.address-contact:focus {
     color: var(--color-ocean);
     text-decoration: underline;
 }
@@ -189,7 +189,11 @@ cursor: pointer;
 }
 
 .section-team{
-background-color: #FFFFFF;
+background-color: #f4f4fd;;
+}
+
+.team-item {
+    color: #FFFFFF;
 }
 .team-list {
     list-style: none;
@@ -228,8 +232,8 @@ background-color: #FFFFFF;
 }
 
 .footer-logo {
-    color: #4d5ae5;
-    font-family: Raleway;
+    color: var(--color-iris);
+  font-family: "Raleway", sans-serif;
    
 }
 
