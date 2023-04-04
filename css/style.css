@@ -72,7 +72,6 @@
 .header-link:hover,
 .header-link:focus {
     color: var(--color-ocean);
-    text-decoration: underline;
     font-weight: 500;
 }
 
@@ -96,7 +95,6 @@
 .address-contact:hover,
 .address-contact:focus {
     color: var(--color-ocean);
-    text-decoration: underline;
 }
 
 .adress-menu {
